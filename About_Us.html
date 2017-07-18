@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <title>About Us</title>
+ <style type = "text/css">
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.col-container {
+    display: table;
+    width: 100%;
+}
+.col {
+    display: table-cell;
+    padding: 50px;
+}
+
+
+  body {
+  
+  background-repeat: no-repeat;
+   background-size: 1400px 640px;
+   background-attachment: fixed;
+  }
+
+  h1 {
+    font-size: 350%;
+}
+
+h2 {
+  color: black;
+  font-size: 200%
+}
+
+  p {
+  background-color: white;
+  font-size: 110%;
+  background-color: rgba(255, 255, 255, .85);
+  }
+ </style>
+ </head>
+ <body>
+
+<ul>
+  <li><a href="Pid.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Applications</a>
+    <div class="dropdown-content">
+      <a href="App1.html">Application 1: PID Action Simulator</a>
+      <a href="App2.html">Application 2: PID Temperature Controller</a>
+    </div>
+  <li><a class="active" href="About_Us.html">About Us</a></li>
+  <li><a href="Report.html">Project Report</a></li>
+</ul>
+
+
+<div id="bg">
+ <h1><center>About Us</center></h1>
+
+ <div class="col-container">
+  <div class="col" style="background:white">
+    <h2><center>Sujoy Roy</center></h2>
+     <a href="https://www.facebook.com/sujoy.roy.5209">
+    <center><img src="Sujoy.jpg" alt="Sujoy" height="400px"></center>
+    </a>
+    <center><p><b>Student At <br>NIIT University<br>The Univerity Of Future<br>Email:- sujoy.roy@st.niituniversity.in</p></center>
+    
+  </div>
+
+  <div class="col" style="background:white">
+    <h2><center>Vinod Gujral</center></h2>
+     <a href="https://www.facebook.com/profile.php?id=100009553643336">
+    <center><img src="Vinod.jpg" alt="Vinod" height="400px"></center>
+    </a>
+    <center><p><b>Student At <br>NIIT University<br>The Univerity Of Future<br>Email:- vinod.gujral@st.niituniversity.in</p></center>
+    
+  </div>
+
+  
+</div>
+ 
+ 
+ </div>
+ </body>
+</html>
